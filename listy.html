@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mason Lee</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Roboto font-->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900italic,900,700italic,700,600italic,600,400italic,300italic,300,200italic,200' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/grid.css">
+</head>
+<body>
+<nav>
+	<ul>
+		<li>
+			<a href="index.html">
+				<img src="img/gray-logo.png" width="22" height="22" alt="logo">
+			</a>
+		</li>
+		<!-- <li>
+			<a href="spectrum.html">
+				<img src="img/left-2.png" width="14" height="14">
+			</a>
+		</li> -->
+		<li>
+			<a href="spectrum.html">
+				<img src="img/right-2.png" width="14" height="14">
+			</a>
+		</li>
+		<li>
+			<a href="http://masonlee.me/Resume(Mason).pdf">
+				<img src="img/resume.png" width="20">
+			</a>
+		</li>
+	</ul>
+
+</nav>
+
+<div class="work-summary">
+	<section class="work-header">
+		<h1>
+			Listy
+		</h1>
+		<h4>
+			Personal Project
+		</h4>
+		<div>
+			<div class="work-header-left">
+				<h3>
+					About
+				</h3>
+				<p>
+					In this personal project, I designed a mobile application that allows families and roommates to organize and distribute list items among themselves. Functional prototyping is implemented using Javascript framework Framer.js.
+				</p>
+			</div>
+			<div class="work-header-right">
+				<!-- <div class="check"></div> -->
+				<h3>
+					Main Take Away
+				</h3>
+				<p>
+					Considering a diverse mapping between the interfaces of a mobile application and designing a clear affordance to the interface elements while keeping overall designs simple.
+				</p>
+			</div>
+		</div>
+		<div class="center-stuff">
+			<a href="http://masonlee.me/listy/index.html">
+				<button>
+					View Functional Prototype
+				</button>	
+			</a>
+		</div>
+		<!-- <div class="work-nav">
+			<ul>
+				<li class="activated">Why</li>
+				<li>Process</li>
+				<li>Result</li>
+				<li>Further Implementation</li>
+				<li>Take Away</li>
+			</ul>
+		</div> -->
+	</section>
+</div>
+
+<div class="portfolio-wrapper">
+	<section>
+		<h2>Why</h2>
+		<p>
+			I live with two other friends and we share our grocery costs. Before any one of us go for a grocery shopping, we have to plan out a shopping list on paper, which requires exchange of calls or text messages to coordinate who buys what. Therefore, I thought of creating a mobile application that provides shared lists of items and a common space for shopping-related communication. 
+		</p><br>
+		<p>
+			Arranging meals for the week, preparing the house for a birthday party, or planning equipment for a camping trip with friends; these are all instances where Listy can be handy. Common to all these events are the following tasks:
+		</p>
+		<ol>
+			<li>
+				Writing a list of food and/or items that will be needed.
+			</li>
+			<li>
+				Collecting the items as a group, often dividing who buys what.
+			</li>
+			<li>
+				Making last minute changes such as adding or removing list items.
+			</li>
+		</ol>
+
+		<h2>Process</h2>
+		<p>
+			After a series of sketching sessions, I came up with Axure wireframes in order to focus on user interface behaviors, interactions, and visual elements throughout different pages. I then tested the design with my roommates, because they are the people that would most likely organize the lists.<br>
+			With the participants, I first gave them a short introduction of the application - <span>"Listy is a utility application which is designed to allow families and roommates the ability to organize  and distribute list items among themselves...."</span>. I decided not to give them a demo of the app because I primarily wanted to test the intuitiveness of the navigation systems. <span class="highlight">Two main tasks given to participants were creating an event and add list items.</span>
+		</p>
+		<figure>
+			<ul>
+				<li>
+					<img src="img/listy-axure-1.png" width="157">
+				</li>
+				<li>
+					<img src="img/listy-axure-2.png" width="157">
+				</li>
+				<li>
+					<img src="img/listy-axure-3.png" width="157">
+				</li>
+			</ul>
+		</figure>
+		
+		<h2>Result</h2>
+		<p>	
+			There were 3 main problems discovered from the test. 
+		</p>
+		<ol>
+			<li>
+				Event list and item list (lists that are part of an event) were confusing.
+			</li>
+			<li>
+				Navigation system was unintuitive- participants didn't easily recognize the "+" button. 
+			</li>
+			<li>
+				Checked items cluttered the screen. 
+			</li>
+		</ol>
+
+		<p>
+			Based on these main findings, I redesigned the user interface of the application by completely changing the navigation system and list organizations. 
+		</p>
+		
+		<figure>
+			<img src="img/listy-wireframe.png">
+		</figure>
+
+		<p class="highlight">
+			Redesigned Elements
+		</p>
+		</span>
+		<ol>
+			<li>
+				The only navigation item is a list of events. 
+			</li>
+			<li>
+				Words are used for buttons instead of icons - eg. "All Events", "add", "Done"
+			</li>
+			<li>
+				Checked items are greyed so that users can focus more on unchecked items.
+			</li>
+			<li>
+				Individual event page includes a list of items, whereas in the previous design, clicking an event led users to a different page that has a list of items under that event.
+			</li>
+			<li>
+				Images are used with event description in order to make an event page feel more personal and enjoyable.
+			</li>
+		</ol>
+		<!-- <p>
+			In previous design, "Event List" and "List Items" were accessible through navigation, however, new design only has a list of events. Individual event page includes list items and instead of just displaying list items, images are used with event description in order to make an event page feels more personal and enjoyable.<br>
+		</p> -->
+		<!-- <p>
+			Checked items are greyed to less clutter  
+		</p> -->
+		<figure>
+			<img src="img/mockup.png">
+		</figure>
+		<div class="center-stuff">
+			<p class="highlight">
+				Using Javascript framework <span>framer.js</span>, I created a functional prototype of Listy.
+			</p>
+		</div>
+		
+		<h2>Take Away</h2>
+		<ol>
+			<li>
+				<ul>
+					<!-- <div class="check"></div> -->
+					<li class="finding-title">
+						A consideration of the mapping between interfaces
+					</li>
+					<li>
+						One thing that I found most challenging about designing the app was keeping track of the mapping between interfaces. Though I considered the flow through interfaces before I started wireframing, much more complex connections were made between interfaces after I designed individual pages. I believe it was because there are multiple ways to get to each screen from multiple other screens depending on the context of use. 
+					</li>
+				</ul>
+			</li>
+			<li>	
+				<ul>
+					<li class="finding-title">
+						Providing a clear affordance while keeping designs simple
+					</li>
+					<li>
+						It was my first time designing flat mobile interfaces and I found it quite challenging to provide users a clear sense of what interactions are available in the interface. For example, when there are some decorations(gradient fill, drop shadow, etc) to a button, users would try to tap it even though they don't know what it exactly does. However, with the flat design, I needed to design a clear affordance to a button so that users know exactly what It does for them. Therefore I used a text("add") instead of sign("+").
+					</li>
+				</ul>
+			</li>
+		</ol>
+
+		<div class="work-link">
+			<a href="http://masonlee.me/listy/index.html">
+				<button>
+					View Functional Prototype
+				</button>
+			</a>
+		</div>
+
+		<h2>Further Implementation</h2>
+		<p>
+			The "quick and dirty" prototype of Listy can be used for qualitative research because qualitative research helps the development team to understand: 
+		</p>
+		<ol>
+			<li>
+				behaviors, attitudes and aptitudes of potential users.
+			</li>
+			<li>
+				technical, business, and environmental contexts - <span class="highlight">the domain</span> - of the product to be designed.
+			</li>
+		</ol>
+		<p>
+			Qualitative research can also help the progress of Listy project by:
+		</p>
+		<ol>
+			<li>
+				uniting the team with a common understanding of domain issues and user concerns.
+			</li>
+			<li>
+				empowering management to make more informed decisions about design issues that would otherwise be based on guesswork or personal preference.
+			</li>
+		</ol>
+		<p>
+			I believe once the design team truly understands users, their needs, and their motivations through qualitative research, the usability testing will become an even more efficient tool for judging the effectiveness of design choices made. 
+		</p>
+
+		<div class="work-link">
+
+		</div>
+
+		<div class="workControls"> 
+		<ul>
+			<li class="left-work">
+				<!-- <span><a href="spectrum.html"></a></span> -->
+				
+			</li>
+			<li class="work-grid">
+				<span><a href="index.html#work"></a></span>
+				
+			</li>
+			<li class="right-work">
+				<span><a href="spectrum.html"></a></span>
+				
+			</li>
+		</ul>
+	</div>
+
+	</section>
+</div>
+	
+<footer>
+	<div class="container">
+		<div>
+			<p>
+				Copyright © 2013 Built by Mason Lee. All rights reserved.
+			</p>
+		</div>
+	
+		<ul>
+			<a href="http://masonlee.me/Resume(Mason).pdf" title="My Resume">
+				<li class="resume">
+					Resume
+				</li>
+			</a>
+			<a href="http://www.linkedin.com/in/masonmideumlee" title="My Linkedin Page">
+				<li class="linkedin">
+					Linkedin
+				</li>
+			</a>
+			<a href="https://twitter.com/maizur_" title="My Twitter Page">
+				<li class="twitter">
+					Twitter
+				</li>
+			</a>
+		</ul>
+	</div>
+</footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47445948-1', 'masonlee.me');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
